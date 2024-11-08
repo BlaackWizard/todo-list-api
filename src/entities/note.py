@@ -7,7 +7,7 @@ class NoteEntity:
     id: int
     title: str
     description: str
-    completed: bool
+    completed = False
     created_at: datetime
     updated_at: datetime
 
